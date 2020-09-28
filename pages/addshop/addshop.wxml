@@ -1,0 +1,48 @@
+
+<view>
+  <view class="box">
+    <view class="labal">
+      <text>商店名称:</text>
+    </view>
+    <input bindinput="bindKeyInput" id="name" type="text" maxlength="10"></input>
+  </view>
+
+  <view class="box">
+    <view class="labal">
+      <text>所属人:</text>
+    </view>
+    <input bindinput="bindKeyInput"
+    value="{{user_name}}" id="user_name" type="text"></input>
+  </view>
+
+  <view class="box">
+    <view class="labal">
+      <text>所在省份:</text>
+    </view>
+    <input bindinput="bindKeyInput" id="pname" type="text" maxlength="8"></input>
+  </view>
+
+  <view class="box">
+    <view class="labal">
+      <text>所在城市:</text>
+    </view>
+    <input bindinput="bindKeyInput" id="cityname" type="text" maxlength="5"></input>
+  </view>
+
+  <view class="box">
+    <view class="labal">
+      <text>所在区/县:</text>
+    </view>
+    <input bindinput="bindKeyInput" id="adname" type="text"
+    maxlength="5"></input>
+  </view>
+
+  <view class="box">
+    <view class="labal">
+      <text>详细地址:</text>
+    </view>
+    <input bindinput="bindKeyInput" id="address" type="text"
+    maxlength="30"></input>
+  </view>
+  <button class="btn" type="primary" bindtap="formSubmit">创建</button>
+</view>

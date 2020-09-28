@@ -1,0 +1,29 @@
+<view class="shop-details">
+  <!--轮播图-->
+  <swiper autoplay="true">
+    <swiper-item>
+      <image src="{{details.photos[0].url ? details.photos[0].url : commonUrl}}"></image>
+    </swiper-item>
+  </swiper>
+  
+  <view class="item-title">
+    <text>{{details.name}}</text>
+    <text class="iconfont icon-arrow-down icon"></text>
+  </view>
+  <view class="item-info">
+    <view class="icon">
+      <text class="iconfont icon-duoren"></text>
+    </view>
+    <text class="sequence-info">排队序列：{{sequence}}</text>
+    <button wx:if="{{isTrue == 0 ? true : false}}" class="btn-appioint"
+    bindtap="handleAppointment"
+    >
+      预约
+    </button>
+    <button wx:if="{{isTrue == 1 ? true : false}}" class="btn-appioint-false"
+    bindtap="handleUpAppointment"
+    >
+      取消
+    </button>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/myself/myself",
+    "pages/search/search",
+    "pages/periphery/periphery",
+    "pages/shopDetails/shopDetails",
+    "pages/myshop/myshop",
+    "pages/myappointment/smyappointment",
+    "pages/appoint/appoint",
+    "pages/unappoint/unappoint",
+    "pages/addshop/addshop"
+  ],
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的位置信息将用于小程序位置接口的"
+    }
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f96253",
+    "navigationBarTitleText": "智活城市",
+    "navigationBarTextStyle":"white" 
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home_fill.png"
+      },
+      {
+        "pagePath": "pages/periphery/periphery",
+        "text": "周边",
+        "iconPath": "icons/location.png",
+        "selectedIconPath": "icons/location_fill.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的",
+        "iconPath": "icons/my.png",
+        "selectedIconPath": "icons/my_fill.png"
+      }
+  ],
+  "color":"#f96253",
+  "selectedColor": "#f96253"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json" 
+}

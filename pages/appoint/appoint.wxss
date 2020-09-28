@@ -1,0 +1,11 @@
+.con{
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 40rpx;
+}
+
+.con text{
+  font-size: 64rpx;
+}

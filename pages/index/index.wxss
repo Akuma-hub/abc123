@@ -1,0 +1,42 @@
+view{
+  color: var(--themeColor)
+}
+.page{
+  height: 100%;
+}
+#myMap{
+  width: 100%;
+  height: 200.778vw;
+}
+.parent-box{
+  position: relative;
+}
+.incom{
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+}
+.location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 125vw;
+  background-color: white; 
+  color: black;
+  overflow: hidden;
+}
+
+.location text{
+  font-size: 60rpx;
+}
+.location button{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  max-width: 32rpx;
+  height: 32rpx;
+  opacity: 0;
+}

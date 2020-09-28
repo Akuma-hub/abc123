@@ -1,0 +1,10 @@
+<view>
+  <view class="img">
+    <image src="/style/img/shezhi.jpg"></image>
+  </view>
+  <view class="item-text">微信授权页面</view>
+  <view class="item-text item-text-s">此页面为微信授权页面，点击下方按钮跳出授权或进入授权页面</view>
+  <view class="btn">
+    <button open-type="openSetting" size="mini" type="primary" plain="true">点击微信授权</button>
+  </view>
+</view>

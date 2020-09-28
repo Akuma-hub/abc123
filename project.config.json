@@ -1,0 +1,119 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": false,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": false,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.11.3",
+	"appid": "wx65a00ecdc8c60945",
+	"projectname": "minaApp",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "我的商店页面",
+					"pathName": "pages/myshop/myshop",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "预约列表",
+					"pathName": "pages/myappointment/smyappointment",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "单个商店预约页面",
+					"pathName": "pages/shopDetails/shopDetails",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的页面",
+					"pathName": "pages/myself/myself",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加商店页面",
+					"pathName": "pages/addshop/addshop",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "确认页面",
+					"pathName": "pages/appoint/appoint",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加商店",
+					"pathName": "pages/addshop/addshop",
+					"scene": null
+				}
+			]
+		}
+	}
+}

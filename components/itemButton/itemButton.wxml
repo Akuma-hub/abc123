@@ -1,0 +1,42 @@
+<view class="menu-item">
+    <navigator 
+        url="/pages/myappointment/smyappointment?user={{user}}" 
+        class="iconfont {{icons[0].icon}} icon"
+    ></navigator> 
+    <navigator 
+        url="/pages/myappointment/smyappointment?user={{user}}" 
+        class="texts"
+    >{{icons[0].content}}</navigator>
+    <navigator 
+        url="/pages/myappointment/smyappointment?user={{user}}" 
+        class="iconfont icon-next icon"
+    ></navigator>
+</view>
+<view class="menu-item">
+    <navigator 
+        url="/pages/options/options?user={{user}}" 
+        class="iconfont {{icons[1].icon}} icon"
+    ></navigator> 
+    <navigator 
+        url="/pages/options/options?user={{user}}" 
+        class="texts"
+    >{{icons[1].content}}</navigator>
+    <navigator 
+        url="/pages/options/options?user={{user}}" 
+        class="iconfont icon-next icon"
+    ></navigator>
+</view>
+<view class="menu-item">
+    <navigator 
+        url="/pages/myshop/myshop?user={{user}}" 
+        class="iconfont {{icons[2].icon}} icon"
+    ></navigator> 
+    <navigator 
+        url="/pages/myshop/myshop?user={{user}}" 
+        class="texts"
+    >{{icons[2].content}}</navigator>
+    <navigator 
+        url="/pages/myshop/myshop?user={{user}}" 
+        class="iconfont icon-next icon"
+    ></navigator>
+</view>

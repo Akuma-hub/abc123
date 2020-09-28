@@ -1,0 +1,24 @@
+<view class="parent-box">
+  <searchcom class="incom">
+    <text class="iconfont icon-icon-test" style="margin-right: 10rpx;">商店搜索</text>
+  </searchcom>
+  <view class="map_container">
+  <!--
+    map 默认样式
+      1 width:100%
+      2 height: 300px
+  -->
+    <map
+      id="myMap"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+    ></map>
+  </view>
+  <view class="location">
+    <button bindtap="moveToLocation"></button>
+    <text class="iconfont icon-target-lock"></text>
+  </view>
+</view>

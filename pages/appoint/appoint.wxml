@@ -1,0 +1,7 @@
+<view class="con">
+  <text>预约成功</text>
+</view>
+
+<view>
+    <button type="primary" bindtap="handelContrue">确定</button>
+</view>

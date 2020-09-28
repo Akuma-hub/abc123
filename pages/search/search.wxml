@@ -1,0 +1,17 @@
+<view class="search-box">
+  <text class="iconfont icon-icon-test"></text>
+  <input bindinput="bindKeyInput" bindconfirm="searchShop" placeholder="输入商店名称" maxlength="30" confirm-type="search"></input>
+</view>
+<view class="shop-list">
+  <view wx:for="{{selectShopData}}" wx:key="id" bindtap="toDetailsTap" data-item="{{item}}" class="list-item">
+      <view class="shop-photo">
+        <image mode="widthFix" src="{{item.photos[0].url ? item.photos[0].url : commonUrl}}"></image> 
+      </view>
+      <view class="shop-detials">
+        <text style="font-weight: 700">{{item.name}}</text>
+        <text>位置：{{item.address}}</text>
+        <text style="font-size: 25rpx">{{item.type}}</text>
+      </view>
+      <view class="relative-distance"></view>
+  </view>
+</view>

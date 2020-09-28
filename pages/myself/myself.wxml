@@ -1,0 +1,22 @@
+<view class="top">
+  <button
+  class="btn-login" 
+  open-type="getUserInfo" 
+  bindgetuserinfo="handleGetuserInfo"
+  type="primary"
+  wx:if="{{!userinfo.avatarUrl}}"
+  plain
+  >登录</button>
+  <view class="img">
+    <image class="user-img" src="{{userinfo.avatarUrl}}" mode="" lazy-load="false" binderror="" bindload="" />
+  </view>
+  <view class="user-detail">
+    <view>{{userinfo.nickName}}</view>
+    <image class="user-head" src="{{userinfo.avatarUrl}}"></image>
+  </view>
+</view>
+
+
+<view class="menu-list">
+  <itemButton user="{{userinfo.nickName}}" icons="{{icons}}"></itemButton>
+</view>

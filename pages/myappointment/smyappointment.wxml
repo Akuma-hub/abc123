@@ -1,0 +1,7 @@
+
+<view wx:if="{{appointments.length == 0}}" class="container">
+  <text>您还没有预约</text>
+</view>
+<block>
+  <appointmentitem appointments="{{appointments}}"></appointmentitem>
+</block>

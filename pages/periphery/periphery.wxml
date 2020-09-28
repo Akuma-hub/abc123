@@ -1,0 +1,24 @@
+<view class="show-city">
+  <view class="left">
+    <text>所在城市</text>
+  </view>
+  <view class="right">
+    <text>{{locationCity}}</text>
+  </view>
+</view>
+<view class="select-box">
+  <Select prop-array='{{selectArray}}' binditemChange="handleItemChange"></Select>
+</view>
+<view class="shop-list">
+  <view wx:for="{{poisData}}" wx:key="id" bindtap="toDetailsTap" data-item="{{item}}" class="list-item">
+    <view class="shop-photo">
+      <image mode="widthFix" src="{{item.photos[0].url ? item.photos[0].url : commonUrl}}"></image> 
+    </view>
+    <view class="shop-detials">
+      <text style="font-weight: 700">{{item.name}}</text>
+      <text>位置：{{item.address}}</text>
+      <text style="font-size: 25rpx">{{item.type}}</text>
+    </view>
+    <view class="relative-distance"></view>
+  </view>
+</view>

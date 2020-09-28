@@ -1,0 +1,29 @@
+.img{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 400rpx;
+  position: relative;
+}
+.img image{
+  width: 200rpx;
+  height: 200rpx;
+  position: absolute;
+  top: 30%;
+  border-radius: 50%;
+}
+.item-text{
+  text-align: center;
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+}
+.item-text-s{
+  color: rgb(200, 202, 204);
+}
+.btn{
+  margin-top: 100rpx;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

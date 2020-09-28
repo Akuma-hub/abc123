@@ -1,0 +1,24 @@
+<view  wx:for="{{appointments}}" class="shop-item" wx:key="id">
+  <!--商店title-->
+  <view class="shop-name">
+    <text>{{item.conShop.name}}</text>
+  </view>
+  <!-- 商店详情 -->
+  <view class="shop-detial">
+    <view class="shop-img">
+      <image src="{{item.conShop.photos[0].url ? item.conShop.photos[0].url : commonUrl}}"></image>
+    </view>
+    <view class="shop-con">
+      <view class="shop-address">
+        <text>{{item.conShop.address}}</text>
+      </view>
+      <view class="user-con">
+        <text>{{item.appoint_time}}</text>
+        <text>{{item.appoint_user_name}}</text>
+      </view>
+      <view class="shop-btn">
+        <text bindtap="handleCancel" data-item="{{item}}">解约</text>
+      </view>
+    </view>
+  </view>
+</view>

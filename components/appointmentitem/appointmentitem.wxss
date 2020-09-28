@@ -1,0 +1,53 @@
+.shop-name{
+  height: 60rpx;
+  width: 100%;
+  background-color: white;
+  padding: 0 20rpx;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  
+}
+
+.shop-detial{
+  margin-bottom: 20rpx;
+  display: flex;
+  padding: 20rpx;
+  background-color: white;
+}
+
+.shop-img{
+  font-size: 0;
+}
+.shop-img image{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 10rpx;
+}
+
+.shop-con{
+  padding: 0 20rpx;
+  flex: 1;
+}
+.shop-address{
+  font-size: 26rpx;
+}
+.user-con{
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: rgb(196, 196, 188);
+  display: flex;
+  justify-content: space-between;
+  
+}
+.shop-btn{
+  margin-top: 20rpx;
+}
+.shop-btn text{
+  padding: 10rpx 30rpx;
+  border-radius: 30rpx;
+  border: 2rpx solid tomato;
+  float: right;
+  color: tomato;
+}
+

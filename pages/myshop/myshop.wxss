@@ -3,6 +3,7 @@ page{
   height: 100%;
   background-color: #f7f4f4;
 }
+
 .container{
   padding: 100rpx 0;
   font-size: 38rpx;

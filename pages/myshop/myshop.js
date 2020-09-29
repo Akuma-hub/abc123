@@ -1,3 +1,8 @@
+/*
+  该小程序为 体验版 
+  原因：服务器为配置SSL证书，小程序无法发送https请求
+*/
+
 // pages/myshop/myshop.js
 Page({
 
@@ -31,6 +36,7 @@ Page({
         var result = res.data.find((item)=>{
           return item.user_name === userName
         })
+        console.log(result)
         if(!result){
           wx.navigateTo({
             url: '../addshop/addshop',

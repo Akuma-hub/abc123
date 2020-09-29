@@ -102,7 +102,7 @@ Page({
         adname: this.data.adname,
         address: this.data.address,
         type: '未设置',
-        status: 0,
+        statu: 0,
         dimension: this.data.latitude,
         longitude : this.data.longitude
       },

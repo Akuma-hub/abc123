@@ -1,5 +1,5 @@
 <view wx:if="{{!shop}}" class="container">
-  <text>您还没有创建商店</text>
+  <text>您还没有创建商店 即将跳转</text>
 </view>
 <view wx:if="{{shop}}">
   <view class="top-btn">
